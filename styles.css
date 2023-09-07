@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.icons {
+    margin: 0 auto;
+    width:fit-content;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons img {
+    width:50px;
+    height:50px;
+}
