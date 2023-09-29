@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #F6E8B8;
+    font-family: sans-serif;
 }
 
 footer {
