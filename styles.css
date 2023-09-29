@@ -30,6 +30,12 @@ footer {
     margin-bottom: 0;
 }
 
+.myTitle {
+    font-size: 5.6rem;
+    color: #F6E8B8;
+    -webkit-text-stroke: 2px black;
+}
+
 .myIntro {
     width: 60%;
     overflow-wrap: break-word;
