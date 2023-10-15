@@ -1,13 +1,18 @@
-/** {*/
-/*    margin: 0*/
-/*}*/
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: #F6E8B8;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -28,9 +33,12 @@ footer {
     height:50px;
 }
 
-.me {
+/* HERO SECTION */
+.hero {
+    padding-top: 20vh;
+    height: 80vh;
     width: 70%;
-    margin: auto ;
+    margin: auto;
 }
 
 .greetings {
@@ -57,3 +65,4 @@ footer {
     overflow-wrap: break-word;
     margin: 0 auto;
 }
+
