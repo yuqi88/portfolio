@@ -8,9 +8,9 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*min-height: 100vh;*/
     background-color: #F6E8B8;
     font-family: 'Poppins', sans-serif;
 }
@@ -22,23 +22,24 @@ footer {
 .icons {
     margin: 0 auto;
     width:fit-content;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .icons a {
     text-decoration: none;
 }
 
-.icons img {
-    width:50px;
-    height:50px;
-}
 
 /* HERO SECTION */
 .hero {
-    padding-top: 20vh;
-    height: 80vh;
-    width: 70%;
-    margin: auto;
+    padding-top: 15vh;
+    height: 85vh;
+    /*width: 70%;*/
+    margin: 0 10rem;
+    /*box-sizing: border-box;*/
+    /*min-height: fit-content;*/
 }
 
 .greetings {
@@ -48,8 +49,6 @@ footer {
 .myName {
     font-size: 8rem;
     text-align: center;
-    margin: 0;
-
 }
 
 .myTitle {
@@ -66,3 +65,21 @@ footer {
     margin: 0 auto;
 }
 
+.circle {
+    background: #EEC76F;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 1rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    text-align: center;
+
+    text-decoration: none;
+    color: inherit;
+}
