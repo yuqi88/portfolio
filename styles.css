@@ -109,10 +109,16 @@ section {
     color: inherit;
 }
 
-/* About Section */
+/* ABOUT SECTION */
 .f {
     display: flex;
     gap: 2rem;
 }
 
-.
+/* PROJECT SECTION */
+.project-card {
+    background: #EEC76F;
+    border-radius: 27px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
