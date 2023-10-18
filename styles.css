@@ -8,9 +8,6 @@
 }
 
 body {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*min-height: 100vh;*/
     background-color: #F6E8B8;
     font-family: 'Poppins', sans-serif;
 }
@@ -31,46 +28,74 @@ footer {
     text-decoration: none;
 }
 
+/* REUSABLE */
+.flex {
+    display: flex;
+}
+
+.mb-4-text {
+    margin-bottom: 4rem;
+}
+
+/* SECTION */
+section {
+    margin: 0 10rem;
+    /*margin: 0 10%;*/
+}
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.section-content {
+    margin-bottom: 2rem;
+}
 
 /* HERO SECTION */
-.hero {
+#hero {
     padding-top: 15vh;
     height: 85vh;
-    /*width: 70%;*/
-    margin: 0 10rem;
     /*box-sizing: border-box;*/
     /*min-height: fit-content;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .greetings {
     font-size: 2.5rem;
+    align-self: flex-start;
 }
 
 .myName {
     font-size: 8rem;
-    text-align: center;
 }
 
 .myTitle {
     font-size: 5.6rem;
-    text-align: center;
     color: #F6E8B8;
     -webkit-text-stroke: 2px black;
     margin-top: 0;
 }
 
-.myIntro {
-    width: 60%;
-    overflow-wrap: break-word;
-    margin: 0 auto;
-}
 
 .circle {
     background: #EEC76F;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+
+    align-self: flex-start;
 }
+
+.rectangle{
+    /*width:350px;*/
+    min-width:350px;
+    height:420px;
+    background: #EEC76F;
+    border-radius: 27px;
+}
+
 
 .btn {
     font-weight: 600;
@@ -83,3 +108,11 @@ footer {
     text-decoration: none;
     color: inherit;
 }
+
+/* About Section */
+.f {
+    display: flex;
+    gap: 2rem;
+}
+
+.
