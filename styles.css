@@ -8,76 +8,36 @@
 }
 
 body {
-    background-color: #F6E8B8;
+    background-color: #F8F0E5;
     font-family: 'Poppins', sans-serif;
 }
 
-footer {
-    margin-top: auto;
-}
-
-.icons {
-    margin: 0 auto;
-    width:fit-content;
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.icons a {
-    text-decoration: none;
-}
 
 /* REUSABLE */
 .flex {
     display: flex;
 }
 
-.mb-4-text {
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
     margin-bottom: 4rem;
 }
 
-/* SECTION */
+.line {
+    border-bottom: 1px solid;
+}
+
+.text-align-c {
+    text-align: center;
+}
+
 section {
     margin: 0 10rem;
     /*margin: 0 10%;*/
 }
-
-.section-title {
-    margin-bottom: 2rem;
-}
-
-.section-content {
-    margin-bottom: 2rem;
-}
-
-/* HERO SECTION */
-#hero {
-    padding-top: 15vh;
-    height: 85vh;
-    /*box-sizing: border-box;*/
-    /*min-height: fit-content;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.greetings {
-    font-size: 2.5rem;
-    align-self: flex-start;
-}
-
-.myName {
-    font-size: 8rem;
-}
-
-.myTitle {
-    font-size: 5.6rem;
-    color: #F6E8B8;
-    -webkit-text-stroke: 2px black;
-    margin-top: 0;
-}
-
 
 .circle {
     background: #EEC76F;
@@ -107,6 +67,54 @@ section {
 
     text-decoration: none;
     color: inherit;
+}
+
+/*.section-title {*/
+/*    margin-bottom: 2rem;*/
+/*}*/
+
+.section-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* HERO SECTION */
+#hero {
+    padding-top: 15vh;
+    height: 85vh;
+    /*box-sizing: border-box;*/
+    /*min-height: fit-content;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greetings {
+    font-size: 2.5rem;
+    align-self: flex-start;
+}
+
+.myName {
+    font-size: 8rem;
+}
+
+.myTitle {
+    font-size: 5.6rem;
+    color: #F8F0E5;
+    -webkit-text-stroke: 2px black;
+    margin-top: 0;
+}
+
+.icons {
+    margin: 0 auto;
+    width:fit-content;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.icons a {
+    text-decoration: none;
 }
 
 /* ABOUT SECTION */
