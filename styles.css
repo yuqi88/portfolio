@@ -28,7 +28,7 @@ body {
 }
 
 .mb-4 {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .line {
@@ -54,6 +54,8 @@ body {
     height:420px;
     background: #EEC76F;
     border-radius: 27px;
+
+    position: relative;
 }
 
 .btn {
@@ -71,8 +73,12 @@ body {
 
 /* SECTION */
 section {
-    margin: 0 10rem;
-    /*margin: 0 10%;*/
+    margin: 0 6.5rem 5rem 6.5rem;
+}
+
+.section-title {
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .section-content {
@@ -81,7 +87,7 @@ section {
 }
 
 
-/* HERO SECTION */
+/* HERO */
 #hero {
     padding-top: 15vh;
     height: 85vh;
@@ -110,11 +116,41 @@ section {
 }
 
 
-/* ABOUT SECTION */
-.f {
+/* ABOUT */
+#about {
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
+    gap: 10rem;
 }
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    flex-grow: 1;
+    /*font-size: 1.25rem;*/
+}
+
+.photo-lydia {
+    max-width: 294px;
+    max-height: 348px;
+    border-radius: 27px;
+
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /* !*vendor prefixes omitted due to brevity *!*/
+    /*!*right: 0; !*doesn't work*!*!*/
+
+    position: absolute;
+    right: 0px;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 /* PROJECT SECTION */
 .project-card {
