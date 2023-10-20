@@ -13,6 +13,8 @@ html {
 body {
     background-color: #FAFAFA;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
 }
 
 
@@ -74,14 +76,21 @@ body {
 
 .btn {
     font-weight: 500;
-    padding: 1rem;
-    min-width: 4.5rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     text-align: center;
 
     text-decoration: none;
     color: inherit;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin: 0 auto;
 }
 
 
